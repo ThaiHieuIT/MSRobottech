@@ -109,7 +109,7 @@ body {
     width: 48px;
     height: 48px;
     flex-shrink: 0;
-    background-image: url(/images/img/blog/avt.svg);
+    background-image: url(../images/img/blog/avt.svg);
 }
 
 .blog-user__info--name,
@@ -120,7 +120,7 @@ body {
 .blog-box__item1--img {
     height: 422px;
     flex-shrink: 0;
-    background: url(/images/img/blog/item1.png);
+    background: url(../images/img/blog/item1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -130,7 +130,7 @@ body {
 .blog-box__item2--img {
     height: 422px;
     flex-shrink: 0;
-    background: url(/images/img/blog/item2.png);
+    background: url(../images/img/blog/item2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
