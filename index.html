@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSRobot</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="/tps://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-8 col-lg-4 header-left">
+                    <img class="header-left__img" src="/images/icons/logo.svg" alt="">
+                    <span class="header-left__name">MS.Robot</span>
+                </div>
+                <div class="col-lg-8 header-right row h-100">
+                    <div class="header-right__boxmenu col-8">
+                        <ul class="header-right__menu row h-100">
+                            <li class="col col-xl-2 col-xxl-2"><a href="">Home</a></li>
+                            <li class="col col-xl-2 col-xxl-2"><a href="./layouts/tutorial.html">Tutorial</a></li>
+                            <li class="col col-xl-2 col-xxl-2"><a href="">Forum</a></li>
+                            <li class="col-2 col-xl-2 col-xxl-2"><a href="./layouts/blog.html">Blog</a></li>
+                            <li class="col-3 col-xl-3 col-xxl-2 header-right__demosite"><a href="">Demo Sites</a>
+                                <ul class="header-right__submenu row">
+                                    <li class="header-right__submenu--li col-12"><a href="">Basic Site</a></li>
+                                    <li class="header-right__submenu--li col-12"><a href="">Automation Practice Site</a></li>
+                                    <li class="header-right__submenu--li col-12"><a href="">Automation Actions Site</a></li>
+                                    <li class="header-right__submenu--li col-12"><a href="">Ecommerce Site</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-right__flag col">
+                        <img src="/images/icons/hoaki.png" alt="">
+                    </div>
+                    <div class="header-boxuesr col-3 row">
+                        <button class="header-boxuesr__login col-5 col-xxl-5">Login</button>
+                        <button class="header-boxuesr__signup col-5 col-xxl-5">Sign Up</button>
+                    </div>
+                </div>
+                <div class="header-right__mobile col-4 col-lg-8">
+                    <button class="header-right__mobile--btn"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="header-mobile">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-end"><button class="header-close" style="width: 30px; height: 30px; border: none;">X</button></div>
+            <div class="col-12 col-lg-4 header-left w-100 justify-content-center">
+                <img class="col-6header-left__img" src="/images/icons/logo.svg" alt="">
+                <span class="header-left__name">MS.Robot</span>
+            </div>
+            <ul class="header-right__menu row h-100">
+                <li class="col-12 col-xl-2 col-xxl-2"><a href="">Home</a></li>
+                <li class="col-12 col-xl-2 col-xxl-2"><a href="./layouts/tutorial.html">Tutorial</a></li>
+                <li class="col-12 col-xl-2 col-xxl-2"><a href="">Forum</a></li>
+                <li class="col-12 col-xl-2 col-xxl-2"><a href="./layouts/blog.html">Blog</a></li>
+                <li class="col-12 col-xl-3 col-xxl-2 header-right__demosite"><a href="">Demo Sites</a>
+                    <ul class="header-right__submenu row">
+                        <li class="header-right__submenu--li col-12"><a href="">Basic Site</a></li>
+                        <li class="header-right__submenu--li col-12"><a href="">Automation Practice Site</a></li>
+                        <li class="header-right__submenu--li col-12"><a href="">Automation Actions Site</a></li>
+                        <li class="header-right__submenu--li col-12"><a href="">Ecommerce Site</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header-right__flag col-12 d-flex justify-content-center">
+                <img src="/images/icons/hoaki.png" alt="">
+            </div>
+            <div class="header-boxuesr col-12 row">
+                <button class="header-boxuesr__login col-5 col-xxl-5">Login</button>
+                <button class="header-boxuesr__signup col-5 col-xxl-5">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 contact__title">
+                        <h1 class="contact__title--heading">MS.Robot <span class="contact__title--subheading">stands top
+                                ranked platform for learning</span> Selenium Test Automation</h1>
+                    </div>
+                    <div class="col-12 col-lg-8 contact-info">
+                        <div class="contact-info__title">
+                            <h5 class="contact-info__title--heading">
+                                Why Choose MS.Robot Over All Automation Training Websites?
+                            </h5>
+                        </div>
+                        <div class="contact-content">
+                            <p class="contact-content__text">
+                                Unlike other training websites, MS.Robot provides free training tutorials but as an
+                                added benefit, you will have full access to all our source code, framework and full Q&A
+                                support provided by our professional test automation architecture team.
+                            </p>
+                            <a href="" class="contact-content__link">Start your learning journey NOW!!!</a>
+                        </div>
+                        <div class="contact-info__user row">
+                            <ul class="contact-user__menu"> 
+                                <li class="contact-user__li"><a href="" class="contact-info__user--link">Sign up to get
+                                        our FREE SELENIUM TEST AUTOMATION
+                                        Code.</a></li>
+                                <li class="contact-user__li"><a href="" class="contact-info__user--link">Sign up to join
+                                        in Q&A forum with our TEST
+                                        AUTOMATION ARCHITECT team.</a></li>
+                                <li class="contact-user__li"><a href="" class="contact-info__user--link">Sign up to
+                                        receive Selenium Tips & ebooks.</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-info__email">
+                            <input type="email" class="contact-info__email--input" placeholder="Enter your email">
+                            <button class="contact-info__email--button"><span class="contact-info__email--text">Sign
+                                    Up</span></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 contact__img"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tutorial">
+            <div class="row">
+                <div class="col-12 tutorial__title d-flex justify-content-center">
+                    <h1 class="tutorial__title--heading">Automation Tools Tutorial</h1>
+                </div>
+                <div class="tutorial-boxitem">
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--1 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--2 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--3 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--4 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--5 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--6 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--7 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--8 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tutorial-boxitem ">
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--9 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--10 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--11 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--12 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--13 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--14 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--15 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg tutorial__item">
+                            <div class="tutorial__item--16 tutorial--item "></div>
+                            <h1 class="tutorial__item--heading">Selenium basic</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="source">
+            <div class="row">
+                <div class="col-12 col-lg-7 source-code">
+                    <h1 class="source-code--heading col-md-12">Source Code</h1>
+                    <div class="source-laptop col-11 col-md-12">
+                        <div class="source-display col-11">
+                            <div class="source-display__navbar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.19918 9.54235C7.68923 9.54235 9.70782 7.52061 9.70782 5.02667C9.70782 2.53273 7.68923 0.510986 5.19918 0.510986C2.70914 0.510986 0.690552 2.53273 0.690552 5.02667C0.690552 7.52061 2.70914 9.54235 5.19918 9.54235Z"
+                                        fill="#FC605C" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.22226 9.54235C7.71231 9.54235 9.73089 7.52061 9.73089 5.02667C9.73089 2.53273 7.71231 0.510986 5.22226 0.510986C2.73221 0.510986 0.713623 2.53273 0.713623 5.02667C0.713623 7.52061 2.73221 9.54235 5.22226 9.54235Z"
+                                        fill="#FDBC40" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.24716 9.54235C7.73721 9.54235 9.75579 7.52061 9.75579 5.02667C9.75579 2.53273 7.73721 0.510986 5.24716 0.510986C2.75711 0.510986 0.738525 2.53273 0.738525 5.02667C0.738525 7.52061 2.75711 9.54235 5.24716 9.54235Z"
+                                        fill="#34C749" />
+                                </svg>
+                            </div>
+                            <img src="/images/img/sourcercode.png" alt="" class="source-display--img">
+                        </div>
+                        <div class="source-bottom col-12"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 source-info">
+                    <div class="source-info__box col-11">
+                        <h1 class="source-info__box--heading">SELENIUM TEST AUTOMATION</h1>
+                        <span class="source-info__box--price">Free</span>
+                        <hr class="source-info__box--line">
+                        <h4 class="source-info__box--title">This source code package includes:</h4>
+                        <div class="source-list d-flex">
+                            <div class="source-list__icons">
+                                <p class="source-list--p"><img src="/images/icons/source-icons/seicon.png" alt=""></p>
+                                <p class="source-list--p"><img src="/images/icons/source-icons/website.png" alt=""></p>
+                                <P class="source-list--p"><img src="/images/icons/source-icons/amazon 1.png" alt="">
+                                </P>
+                                <P class="source-list--p"><img src="/images/icons/source-icons/java 1.png" alt=""></P>
+                                <P class="source-list--p"><img src="/images/icons/source-icons/file (1) 1.png" alt="">
+                                </P>
+                            </div>
+                            <div class="source-list__info ">
+                                <p class="source-list--p">Test Automation Framework for Selenium</p>
+                                <p class="source-list--p">4 Test Cases from MS Robot Demo Sites</p>
+                                <p class="source-list--p">3 Test Cases from Amazon Web Site</p>
+                                <p class="source-list--p">Javadoc for Source Code</p>
+                                <p class="source-list--p">User Guide</p>
+                            </div>
+                        </div>
+                        <button class="source-info__box--btn col-12">Download Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="learning">
+            <div class="row">
+                <div class="col-12 col-md-6 learning-box1">
+                    <div class="learning-box1__shap">
+                        <img src="/images/icons/Group.png" alt="">
+                    </div>
+                    <h1 class="learning-box1--heading">Learning path for absolute beginner in programming : FREE</h1>
+                    <ul class="learning-box1__menu">
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 1:</span> Run
+                            our SELENIUM TEST AUTOMATION to know what selenium automation is. </li>
+                        <a href="" class="learning-box1__menu-a">Download Selenium Test Automation now <img
+                                src="/images/icons/learning/right.svg" alt=""></a>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 2:</span> Start
+                            Java Basic.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 3:</span> Learn
+                            Java Advance.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 4:</span> Start
+                            Selenium Basic.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 5:</span> Learn
+                            Selenium Advance.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 6:</span>
+                            Automate Test cases by yourself (Using our Demo Sites & Test cases excel file).</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 7:</span> Put
+                            your automation test cases into github.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 8:</span> Apply
+                            for QA Analyst, QA Engineer, Software Developer in Test job.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 learning-box1">
+                    <div class="learning-box1__shap">
+                        <img src="/images/icons/Group.png" alt="">
+                    </div>
+                    <h1 class="learning-box1--heading">Learning path for absolute beginner in programming : FREE</h1>
+                    <ul class="learning-box1__menu">
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 1:</span> Run
+                            our SELENIUM TEST AUTOMATION to know what selenium automation is.</li>
+                        <a href="" class="learning-box1__menu-a">Download Selenium Test Automation now <img
+                                src="/images/icons/learning/right.svg" alt=""></a>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 2:</span> Start
+                            Selenium Basic.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 3:</span> Learn
+                            Selenium Advance.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 4:</span>
+                            Automate Test cases by yourself (Using our Demo Sites & Test cases excel file).</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 5:</span> Put
+                            your automation test cases into github.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 6:</span> Apply
+                            for QA Analyst, QA Engineer, Software Developer in Test job.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 learning-box1">
+                    <div class="learning-box1__shap">
+                        <img src="/images/icons/Group.png" alt="">
+                    </div>
+                    <h1 class="learning-box1--heading">Learning path for absolute beginner in programming : FREE</h1>
+                    <ul class="learning-box1__menu">
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 1:</span> Run
+                            our SELENIUM TEST AUTOMATION to know what selenium automation is. </li>
+                        <a href="" class="learning-box1__menu-a">Download Selenium Test Automation now <img
+                                src="/images/icons/learning/right.svg" alt=""></a>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 2:</span> Start
+                            Java Basic.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 3:</span> Learn
+                            Java Advance.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 4:</span> Start
+                            Selenium Basic.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 5:</span> Learn
+                            Selenium Advance.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 6:</span>
+                            Automate Test cases by yourself (Using our Demo Sites & Test cases excel file).</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 7:</span> Put
+                            your automation test cases into github.</li>
+                        <li class="learning-box1__menu--li"><span class="learning-box1__menu--span">Step 8:</span> Apply
+                            for QA Analyst, QA Engineer, Software Developer in Test job.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 learning-box4"></div>
+            </div>
+        </div>
+        <div class="understand">
+            <div class="row">
+                <div class="col-12 col-lg-6 understand-box1">
+                    <div class="col-12 understand-box__icon">
+                        <img src="/images/icons/understand/Icon.svg" alt="">
+                    </div>
+                    <div class="understand-box__list">
+                        <h1 class="understand-box--title">Understanding <span class="understand-box--subtitle">how to
+                                learn Selenium effectively</span></h1>
+                        <ul class="understand-box__menu">
+                            <li class="understand-box__menu--li">1. How did I learn Selenium when I have a full-time
+                                job.</li>
+                            <li class="understand-box__menu--li">2. How to learn All Selenium Automation With less than
+                                $100. </li>
+                            <li class="understand-box__menu--li">3. Break the secret of learning programming for
+                                absolute beginner.</li>
+                            <li class="understand-box__menu--li">4. Learn Selenium Automation in class vs online.</li>
+                            <li class="understand-box__menu--li">5. QA Analyst salary vs Test Automation
+                                Developer/Engineer salary.</li>
+                            <li class="understand-box__menu--li">6. Help! I can’t learn Selenium, I don’t understand it!
+                            </li>
+                            <li class="understand-box__menu--li">7. Can’t create Selenium Automation Framework from
+                                scratch! You’re not alone!</li>
+                            <li class="understand-box__menu--li">8. How to learn Selenium or any skills for QA Engineer
+                                career.</li>
+                            <li class="understand-box__menu--li">9. The fastest way to learn Selenium in java language.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 understand-box2">
+                    <div class="col-12 understand-box__icon">
+                        <img src="/images/icons/understand/Icon.svg" alt="">
+                    </div>
+                    <h1 class="understand-box--title">Understanding <span class="understand-box--subtitle">how to learn
+                            Selenium effectively</span></h1>
+                    <div class="understand-box2__content">
+                        <p class="understand-box2__content--p">
+                            If you ask a tester what she wants to learn next, chances are very high that the answer is:
+                            Test Automation with Selenium WebDriver! <br>
+                            Most testers agree that manual testing skills are no longer sufficient for a successful
+                            career. <br>
+                            Companies still need testers but hire the ones proficient also with programming. <br>
+                            Between a tester that can test a user story and another that can also automate it, the
+                            second one has the higher chance of getting the job. <br> <br>
+
+                            She adds value to the company now with her testing. <br>
+                            She also adds value to the company in the future through her automation. <br>
+                            Her automated tests can be repeated any time they are needed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="row">
+                <div class="col-lg-12 benefit__title">
+                    <div class="benefit__title--speed"><img src="/images/icons/benefit/flaticon1537477497-svg.svg" alt=""></div>
+                    <h1 class="benefit__title--heading">Benefit of FREE resources for online learning</h1>
+                </div>
+                <div class="col-lg-6 benefit__box">
+                    <div class="benefit__img">
+                        <img src="/images/icons/benefit/Support.svg" alt="">
+                    </div>
+                    <div class="benefit__content">
+                        <p class="benefit__content--title">LEARN IN YOUR OWN TIME</p>
+                        <p class="benefit__content--text">
+                            We are very busy in this world and in the software industry, you need to learn & update your
+                            skills set so that you can get a job easily. Online learning is the best tool to help you
+                            achieve the skills you need in you own time.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 benefit__box">
+                    <div class="benefit__img">
+                        <img src="/images/icons/benefit/Support.svg" alt="">
+                    </div>
+                    <div class="benefit__content">
+                        <p class="benefit__content--title">LEARN IN YOUR OWN TIME</p>
+                        <p class="benefit__content--text">
+                            We are very busy in this world and in the software industry, you need to learn & update your
+                            skills set so that you can get a job easily. Online learning is the best tool to help you
+                            achieve the skills you need in you own time.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 benefit__box">
+                    <div class="benefit__img">
+                        <img src="/images/icons/benefit/Support.svg" alt="">
+                    </div>
+                    <div class="benefit__content">
+                        <p class="benefit__content--title">LEARN IN YOUR OWN TIME</p>
+                        <p class="benefit__content--text">
+                            We are very busy in this world and in the software industry, you need to learn & update your
+                            skills set so that you can get a job easily. Online learning is the best tool to help you
+                            achieve the skills you need in you own time.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 benefit__box">
+                    <div class="benefit__img">
+                        <img src="/images/icons/benefit/Support.svg" alt="">
+                    </div>
+                    <div class="benefit__content">
+                        <p class="benefit__content--title">LEARN IN YOUR OWN TIME</p>
+                        <p class="benefit__content--text">
+                            We are very busy in this world and in the software industry, you need to learn & update your
+                            skills set so that you can get a job easily. Online learning is the best tool to help you
+                            achieve the skills you need in you own time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row" style="justify-content: space-evenly;">
+            <div class="col-12 col-lg-4 footer__tutorial">
+                <p class="footer__heading">TUTORIAL</p>
+                <div class="footer__hr"></div>
+                <div class="footer-list">
+                    <div class="row">
+                        <p class="col col-md col-lg-6 footer-list--p">Java</p>
+                        <p class="col col-md col-lg-6 footer-list--p">Jenkins</p>
+                        <p class="col-5 col-md-2 col-lg-6 footer-list--p">Selenium (Java)</p>
+                        <p class="col col-md col-lg-6 footer-list--p">Git</p>
+                        <p class="col-7 col-md-4 col-lg-6 footer-list--p">Selenium Automation Framework</p>
+                        <p class="col col-md col-lg-6 footer-list--p">Github</p>
+                        <p class="col-5 col-md-4 col-lg-6 footer-list--p">Docker for Selenium</p>
+                        <p class="col col-md-2 col-lg-6 footer-list--p">Maven</p>
+                        <p class="col col-md-2 col-lg-6 footer-list--p">TestNG</p>
+                        <p class="col col-md-2 col-lg-6 footer-list--p">Log4j</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 footer__demo">
+                <p class="footer__heading">DEMO SITES</p>
+                <div class="footer__hr"></div>
+                <div class="footer-list">
+                    <div class="row">
+                        <p class="col-6 col-md-3 col-lg-12 footer-list--p">Basic Demo Site</p>
+                        <p class="col-6 col-md-3 col-lg-12 footer-list--p">Automation Practice Site</p>
+                        <p class="col-6 col-md-3 col-lg-12 footer-list--p">Automation Action Site</p>
+                        <p class="col-6 col-md-3 col-lg-12 footer-list--p">E-commerce Demo Site</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 footer__useful">
+                <p class="footer__heading">USEFUL LINKS</p>
+                <div class="footer__hr"></div>
+                <div class="footer-list">
+                    <div class="row">
+                        <p class="col col-lg-12 footer-list--p">Block</p>
+                        <p class="col col-lg-12 footer-list--p">Forum</p>
+                        <p class="col-6 col-lg-12 footer-list--p">Automation Action Site</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        <span class="col-6 col-lg-4 footer-bottom__corp footer-bottom__share">© 2020 MS.Robot Corp.</span>
+        <div class="col-6 col-lg-3 footer-bottom__media footer-bottom__share">
+            <img src="/images/icons/footer/social.svg" alt="">
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
