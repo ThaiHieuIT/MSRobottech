@@ -58,7 +58,7 @@
   .tutorial-content--img {
       width: 722px;
       height: 329px;
-      background-image: url(./images/img/tutorial/tutorialcontent.png);
+      background-image: url(../images/img/tutorial/tutorialcontent.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -116,7 +116,7 @@
   .tutorial-cbox__box--install {
       width: 100%;
       height: 177.36px;
-      background-image: url(./images/img/tutorial/install.png);
+      background-image: url(../images/img/tutorial/install.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -125,7 +125,7 @@
   .tutorial-cbox__box--download1 {
       width: 100%;
       height: 186.437px;
-      background-image: url(./images/img/tutorial/download1.png);
+      background-image: url(../images/img/tutorial/download1.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -134,7 +134,7 @@
   .tutorial-cbox__box--download2 {
       width: 100%;
       height: 340.29px;
-      background-image: url(./images/img/tutorial/download2.png);
+      background-image: url(../images/img/tutorial/download2.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -143,7 +143,7 @@
   .tutorial-cbox__box--download3 {
       width: 100%;
       height: 370.574px;
-      background-image: url(./images/img/tutorial/download3.png);
+      background-image: url(../images/img/tutorial/download3.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -152,7 +152,7 @@
   .tutorial-cbox__box--download4 {
       width: 100%;
       height: 153px;
-      background-image: url(./images/img/tutorial/download4.png);
+      background-image: url(../images/img/tutorial/download4.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -168,7 +168,7 @@
   .advertise1 {
       width: 300px !important;
       height: 250px;
-      background-image: url(./images/img/tutorial/Rectangle.png);
+      background-image: url(../images/img/tutorial/Rectangle.png);
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 50px;
@@ -177,7 +177,7 @@
   .advertise2 {
       width: 300px !important;
       height: 250px;
-      background-image: url(./images/img/tutorial/Rectangle1.png);
+      background-image: url(../images/img/tutorial/Rectangle1.png);
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 50px;
@@ -186,7 +186,7 @@
   .advertise3 {
       width: 160px;
       height: 600px;
-      background-image: url(./images/img/tutorial/Rectangle2.png);
+      background-image: url(../images/img/tutorial/Rectangle2.png);
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 50px;
@@ -195,7 +195,7 @@
   .advertise4 {
       width: 160px;
       height: 600px;
-      background-image: url(./images/img/tutorial/Rectangle3.png);
+      background-image: url(../images/img/tutorial/Rectangle3.png);
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 50px;
